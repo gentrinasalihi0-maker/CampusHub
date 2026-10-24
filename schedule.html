@@ -1,0 +1,192 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule | CampusHub University Portal</title>
+</head>
+<body>
+    <header>
+        <img src="images/campushub-logo.png"
+             alt="CampusHub university portal logo"
+             width="150">
+
+        <h1>CampusHub</h1>
+        <p>Your university learning portal</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html" aria-current="page">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="schedule-heading">
+            <h2 id="schedule-heading">Class Schedule</h2>
+            <p>
+                View your weekly classes, lecture times, locations, and
+                upcoming academic activities. Check your course information
+                before attending each session.
+            </p>
+
+            <figure>
+                <img src="images/university-classroom.jpg"
+                     alt="University students attending a lecture in a classroom"
+                     width="600">
+                <figcaption>
+                    Plan your week and stay organized with CampusHub.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section aria-labelledby="schedule-filter-heading">
+            <h2 id="schedule-filter-heading">Find Your Schedule</h2>
+
+            <form action="#" method="get">
+                <p>
+                    <label for="student-name">Student name:</label>
+                    <input type="text" id="student-name"
+                           name="student-name"
+                           placeholder="Enter your name">
+                </p>
+
+                <p>
+                    <label for="course">Course:</label>
+                    <select id="course" name="course">
+                        <option value="">All courses</option>
+                        <option value="cs101">Introduction to Computer Science</option>
+                        <option value="math201">Calculus II</option>
+                        <option value="eng105">Academic English</option>
+                        <option value="db202">Database Systems</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="week-start">Week starting:</label>
+                    <input type="date" id="week-start" name="week-start">
+                </p>
+
+                <button type="submit">View Schedule</button>
+            </form>
+
+            <p>
+                This sample form demonstrates accessible HTML controls.
+                It does not retrieve student records or filter the schedule
+                without a server-side implementation.
+            </p>
+        </section>
+
+        <section aria-labelledby="weekly-schedule-heading">
+            <h2 id="weekly-schedule-heading">Weekly Class Timetable</h2>
+            <p>Example timetable for a university student.</p>
+
+            <table>
+                <caption>Weekly class schedule and locations</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Instructor</th>
+                        <th scope="col">Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>09:00–10:30</td>
+                        <td>Introduction to Computer Science</td>
+                        <td>Dr. Elena Morris</td>
+                        <td>Room A204</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>11:00–12:30</td>
+                        <td>Academic English</td>
+                        <td>Prof. Daniel Reed</td>
+                        <td>Room B105</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tuesday</th>
+                        <td>10:00–11:30</td>
+                        <td>Calculus II</td>
+                        <td>Dr. Sophia Bennett</td>
+                        <td>Room C301</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td>09:00–11:00</td>
+                        <td>Database Systems</td>
+                        <td>Prof. Michael Turner</td>
+                        <td>Computer Lab 2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Thursday</th>
+                        <td>13:00–14:30</td>
+                        <td>Introduction to Computer Science</td>
+                        <td>Dr. Elena Morris</td>
+                        <td>Room A204</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friday</th>
+                        <td>10:00–11:30</td>
+                        <td>Academic English</td>
+                        <td>Prof. Daniel Reed</td>
+                        <td>Room B105</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-labelledby="reminders-heading">
+            <h2 id="reminders-heading">Schedule Reminders</h2>
+
+            <article>
+                <h3>Arrive Prepared</h3>
+                <p>
+                    Review your lecture notes and bring the required
+                    materials to each class.
+                </p>
+            </article>
+
+            <article>
+                <h3>Check Classroom Locations</h3>
+                <p>
+                    Confirm your assigned room before attending lectures
+                    or laboratory sessions.
+                </p>
+            </article>
+
+            <article>
+                <h3>Upcoming Academic Activities</h3>
+                <p>
+                    Consult the <a href="events.html">university events</a>
+                    page for workshops, seminars, and academic activities.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CampusHub University Portal. All rights reserved.</p>
+        <p>
+            Need assistance?
+            Contact the university student services office.
+        </p>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

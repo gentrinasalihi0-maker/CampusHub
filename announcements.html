@@ -1,0 +1,219 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Announcements | CampusHub</title>
+</head>
+<body>
+    <header>
+        <img src="images/campushub-logo.png"
+             alt="CampusHub university portal logo"
+             width="150">
+
+        <h1>CampusHub</h1>
+        <p>Your university learning portal</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li>
+                    <a href="announcements.html" aria-current="page">
+                        Announcements
+                    </a>
+                </li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="page-heading">
+            <h2 id="page-heading">University Announcements</h2>
+            <p>
+                Stay informed about important campus news, academic deadlines,
+                student services, and university activities.
+            </p>
+
+            <figure>
+                <img src="images/campus-students.jpg"
+                     alt="University students walking together across campus"
+                     width="600">
+                <figcaption>
+                    The latest news and updates from the CampusHub community.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section aria-labelledby="search-heading">
+            <h2 id="search-heading">Find an Announcement</h2>
+
+            <form action="#" method="get">
+                <p>
+                    <label for="announcement-search">
+                        Search announcements:
+                    </label>
+                    <input type="search"
+                           id="announcement-search"
+                           name="search"
+                           placeholder="Enter a keyword">
+                </p>
+
+                <p>
+                    <label for="announcement-category">
+                        Announcement category:
+                    </label>
+                    <select id="announcement-category" name="category">
+                        <option value="">All categories</option>
+                        <option value="academic">Academic</option>
+                        <option value="events">Campus events</option>
+                        <option value="student-services">Student services</option>
+                        <option value="deadlines">Important deadlines</option>
+                    </select>
+                </p>
+
+                <button type="submit">Search</button>
+            </form>
+
+            <p>
+                This is an example HTML form. Searching and filtering require
+                additional server-side functionality.
+            </p>
+        </section>
+
+        <section aria-labelledby="latest-heading">
+            <h2 id="latest-heading">Latest Announcements</h2>
+
+            <article>
+                <header>
+                    <p>
+                        <strong>Academic Notice</strong>
+                    </p>
+                    <h3>Registration for the New Semester</h3>
+                    <p>
+                        <time datetime="2026-10-20">October 20, 2026</time>
+                    </p>
+                </header>
+
+                <img src="images/university-library.jpg"
+                     alt="Students studying at desks in the university library"
+                     width="400">
+
+                <p>
+                    Students are reminded to review their course selections
+                    and complete semester registration before the published
+                    university deadline. Contact the academic office if you
+                    need assistance with your registration.
+                </p>
+
+                <p>
+                    For course information, visit the
+                    <a href="courses.html">Courses page</a>.
+                </p>
+            </article>
+
+            <article>
+                <header>
+                    <p>
+                        <strong>Campus Event</strong>
+                    </p>
+                    <h3>Annual Student Welcome Day</h3>
+                    <p>
+                        <time datetime="2026-10-18">October 18, 2026</time>
+                    </p>
+                </header>
+
+                <img src="images/student-orientation.jpg"
+                     alt="New students participating in a university orientation session"
+                     width="400">
+
+                <p>
+                    New and returning students are invited to participate
+                    in Welcome Day activities. Meet student representatives,
+                    learn about campus facilities, and discover opportunities
+                    to join university clubs and societies.
+                </p>
+
+                <p>
+                    View upcoming activities on the
+                    <a href="events.html">Events page</a>.
+                </p>
+            </article>
+
+            <article>
+                <header>
+                    <p>
+                        <strong>Student Services</strong>
+                    </p>
+                    <h3>Library Opening Hours Update</h3>
+                    <p>
+                        <time datetime="2026-10-15">October 15, 2026</time>
+                    </p>
+                </header>
+
+                <img src="images/library-study-area.jpg"
+                     alt="Quiet study area inside the university library"
+                     width="400">
+
+                <p>
+                    The university library provides study spaces, research
+                    resources, and access to academic materials. Students
+                    should check the library's official noticeboard for
+                    current opening hours and any temporary changes.
+                </p>
+            </article>
+
+            <article>
+                <header>
+                    <p>
+                        <strong>Important Deadline</strong>
+                    </p>
+                    <h3>Scholarship Application Reminder</h3>
+                    <p>
+                        <time datetime="2026-10-12">October 12, 2026</time>
+                    </p>
+                </header>
+
+                <p>
+                    Students interested in university scholarships should
+                    review the eligibility requirements and prepare the
+                    necessary supporting documents. Contact the student
+                    services office for information about available
+                    financial assistance.
+                </p>
+            </article>
+        </section>
+
+        <section aria-labelledby="help-heading">
+            <h2 id="help-heading">Need More Information?</h2>
+            <p>
+                Check the <a href="schedule.html">class schedule</a>
+                for timetable information or visit the
+                <a href="instructors.html">Instructors page</a>
+                to learn about academic staff.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CampusHub University Portal. All rights reserved.</p>
+
+        <p>
+            For assistance with university announcements, contact the
+            student services office.
+        </p>
+
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

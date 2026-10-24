@@ -1,0 +1,303 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses | CampusHub University Portal</title>
+</head>
+<body>
+
+    <header>
+        <h1>CampusHub</h1>
+        <p>Your gateway to university learning and opportunities.</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html" aria-current="page">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="courses-heading">
+            <h2 id="courses-heading">Explore Our Courses</h2>
+            <p>
+                Discover academic programs designed to build your knowledge,
+                develop practical skills, and prepare you for your future career.
+                Explore our courses across technology, business, design,
+                engineering, and languages.
+            </p>
+
+            <form action="courses.html" method="get">
+                <p>
+                    <label for="course-search">Search courses</label>
+                    <input
+                        type="search"
+                        id="course-search"
+                        name="search"
+                        placeholder="Enter a course name"
+                    >
+                </p>
+
+                <p>
+                    <label for="department">Department</label>
+                    <select id="department" name="department">
+                        <option value="">All departments</option>
+                        <option value="computer-science">Computer Science</option>
+                        <option value="business">Business</option>
+                        <option value="design">Design and Media</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="languages">Languages</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="level">Study level</label>
+                    <select id="level" name="level">
+                        <option value="">All levels</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </p>
+
+                <button type="submit">Search Courses</button>
+            </form>
+            <p>
+                Search note: These are standard HTML form controls.
+                No live filtering or dynamic search is implemented.
+            </p>
+        </section>
+
+        <nav aria-label="Course categories">
+            <h2>Browse by Category</h2>
+            <ul>
+                <li><a href="#computer-science">Computer Science</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="#design">Design and Media</a></li>
+                <li><a href="#engineering">Engineering</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+
+        <section aria-labelledby="course-list-heading">
+            <h2 id="course-list-heading">Available Courses</h2>
+
+            <section id="computer-science" aria-labelledby="cs-heading">
+                <h3 id="cs-heading">Computer Science</h3>
+
+                <article>
+                    <img
+                        src="images/web-development.jpg"
+                        alt="Computer screen displaying a website development workspace"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>Web Development</h4>
+                    <p>
+                        Learn the foundations of building accessible websites
+                        using HTML, CSS concepts, and modern web technologies.
+                    </p>
+                    <p><strong>Department:</strong> Computer Science</p>
+                    <p><strong>ECTS Credits:</strong> 6</p>
+                    <p><strong>Level:</strong> Beginner</p>
+                    <p><a href="course-details/web-development.html">View details: Web Development</a></p>
+                </article>
+
+                <article>
+                    <img
+                        src="images/database-systems.jpg"
+                        alt="Database tables and data displayed on a computer monitor"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>Database Systems</h4>
+                    <p>
+                        Explore database design, data organization, relational
+                        models, and fundamental query concepts.
+                    </p>
+                    <p><strong>Department:</strong> Computer Science</p>
+                    <p><strong>ECTS Credits:</strong> 6</p>
+                    <p><strong>Level:</strong> Intermediate</p>
+                    <p><a href="course-details/database-systems.html">View details: Database Systems</a></p>
+                </article>
+
+                <article>
+                    <img
+                        src="images/data-structures-algorithms.jpg"
+                        alt="Computer science notes illustrating data structures and algorithm diagrams"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>Data Structures and Algorithms</h4>
+                    <p>
+                        Study efficient ways to organize information and solve
+                        computational problems using fundamental algorithms.
+                    </p>
+                    <p><strong>Department:</strong> Computer Science</p>
+                    <p><strong>ECTS Credits:</strong> 6</p>
+                    <p><strong>Level:</strong> Intermediate</p>
+                    <p><a href="course-details/data-structures-algorithms.html">View details: Data Structures and Algorithms</a></p>
+                </article>
+
+                <article>
+                    <img
+                        src="images/software-engineering.jpg"
+                        alt="Software developers collaborating on a programming project"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>Software Engineering</h4>
+                    <p>
+                        Learn software development life cycles, requirements
+                        analysis, testing, and collaborative project practices.
+                    </p>
+                    <p><strong>Department:</strong> Computer Science</p>
+                    <p><strong>ECTS Credits:</strong> 6</p>
+                    <p><strong>Level:</strong> Advanced</p>
+                    <p><a href="course-details/software-engineering.html">View details: Software Engineering</a></p>
+                </article>
+            </section>
+
+            <section id="business" aria-labelledby="business-heading">
+                <h3 id="business-heading">Business</h3>
+
+                <article>
+                    <img
+                        src="images/digital-marketing.jpg"
+                        alt="Digital marketing analytics displayed on a laptop screen"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>Digital Marketing</h4>
+                    <p>
+                        Discover online marketing strategies, audience research,
+                        content planning, and digital campaign measurement.
+                    </p>
+                    <p><strong>Department:</strong> Business</p>
+                    <p><strong>ECTS Credits:</strong> 5</p>
+                    <p><strong>Level:</strong> Beginner</p>
+                    <p><a href="course-details/digital-marketing.html">View details: Digital Marketing</a></p>
+                </article>
+
+                <article>
+                    <img
+                        src="images/business-management.jpg"
+                        alt="Students discussing business plans and reviewing documents"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>Business Management</h4>
+                    <p>
+                        Build an understanding of leadership, organizational
+                        planning, decision-making, and business operations.
+                    </p>
+                    <p><strong>Department:</strong> Business</p>
+                    <p><strong>ECTS Credits:</strong> 6</p>
+                    <p><strong>Level:</strong> Intermediate</p>
+                    <p><a href="course-details/business-management.html">View details: Business Management</a></p>
+                </article>
+            </section>
+
+            <section id="design" aria-labelledby="design-heading">
+                <h3 id="design-heading">Design and Media</h3>
+
+                <article>
+                    <img
+                        src="images/graphic-design.jpg"
+                        alt="Graphic design workspace with color palettes and digital artwork"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>Graphic Design</h4>
+                    <p>
+                        Develop visual communication skills through typography,
+                        color theory, layout principles, and creative projects.
+                    </p>
+                    <p><strong>Department:</strong> Design and Media</p>
+                    <p><strong>ECTS Credits:</strong> 5</p>
+                    <p><strong>Level:</strong> Beginner</p>
+                    <p><a href="course-details/graphic-design.html">View details: Graphic Design</a></p>
+                </article>
+            </section>
+
+            <section id="languages" aria-labelledby="languages-heading">
+                <h3 id="languages-heading">Languages</h3>
+
+                <article>
+                    <img
+                        src="images/english-language.jpg"
+                        alt="English language learning materials and an open textbook on a desk"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>English Language</h4>
+                    <p>
+                        Improve English reading, writing, listening, speaking,
+                        and communication skills for academic and professional use.
+                    </p>
+                    <p><strong>Department:</strong> Languages</p>
+                    <p><strong>ECTS Credits:</strong> 5</p>
+                    <p><strong>Level:</strong> Beginner</p>
+                    <p><a href="course-details/english-language.html">View details: English Language</a></p>
+                </article>
+            </section>
+
+            <section id="engineering" aria-labelledby="engineering-heading">
+                <h3 id="engineering-heading">Engineering</h3>
+
+                <article>
+                    <img
+                        src="images/electrical-engineering.jpg"
+                        alt="Electrical engineering laboratory equipment and electronic circuits"
+                        width="320"
+                        height="200"
+                    >
+                    <h4>Electrical Engineering</h4>
+                    <p>
+                        Explore electrical circuits, electronic components,
+                        basic measurement techniques, and engineering principles.
+                    </p>
+                    <p><strong>Department:</strong> Engineering</p>
+                    <p><strong>ECTS Credits:</strong> 6</p>
+                    <p><strong>Level:</strong> Intermediate</p>
+                    <p><a href="course-details/electrical-engineering.html">View details: Electrical Engineering</a></p>
+                </article>
+            </section>
+        </section>
+
+        <section aria-labelledby="enrollment-heading">
+            <h2 id="enrollment-heading">Start Your Learning Journey</h2>
+            <p>
+                Explore the course descriptions to find subjects that match
+                your academic interests and career goals. Contact the university
+                for enrollment guidance and official course requirements.
+            </p>
+            <p>
+                <a href="index.html">Return to the CampusHub homepage</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CampusHub University Portal. All rights reserved.</p>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>

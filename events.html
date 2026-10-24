@@ -1,0 +1,227 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Events | CampusHub</title>
+</head>
+<body>
+    <header>
+        <img src="images/campushub-logo.png"
+             alt="CampusHub university portal logo"
+             width="150">
+
+        <h1>CampusHub</h1>
+        <p>Your university learning portal</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li>
+                    <a href="events.html" aria-current="page">Events</a>
+                </li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="page-heading">
+            <h2 id="page-heading">University Events</h2>
+            <p>
+                Discover campus activities, academic workshops, student
+                gatherings, and career development opportunities.
+                Connect with fellow students and get involved in university life.
+            </p>
+
+            <figure>
+                <img src="images/campus-event.jpg"
+                     alt="University students gathering at a campus event"
+                     width="600">
+                <figcaption>
+                    Explore opportunities to learn, connect, and participate
+                    in the CampusHub community.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section aria-labelledby="search-heading">
+            <h2 id="search-heading">Find an Event</h2>
+
+            <form action="#" method="get">
+                <p>
+                    <label for="event-search">Search by event name:</label>
+                    <input type="search"
+                           id="event-search"
+                           name="search"
+                           placeholder="Enter an event name">
+                </p>
+
+                <p>
+                    <label for="event-category">Event category:</label>
+                    <select id="event-category" name="category">
+                        <option value="">All categories</option>
+                        <option value="academic">Academic workshops</option>
+                        <option value="student">Student activities</option>
+                        <option value="career">Career development</option>
+                        <option value="cultural">Cultural events</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="event-date">Event date:</label>
+                    <input type="date" id="event-date" name="event-date">
+                </p>
+
+                <button type="submit">Search Events</button>
+            </form>
+
+            <p>
+                This form demonstrates accessible HTML controls.
+                Event searching and filtering are not implemented in this
+                static example.
+            </p>
+        </section>
+
+        <section aria-labelledby="upcoming-heading">
+            <h2 id="upcoming-heading">Upcoming Events</h2>
+
+            <article>
+                <header>
+                    <h3>Student Welcome Day</h3>
+                    <p>
+                        <strong>Category:</strong> Student Activities
+                    </p>
+                </header>
+
+                <img src="images/student-welcome.jpg"
+                     alt="University students meeting during an orientation event"
+                     width="400">
+
+                <p>
+                    Meet other students, explore campus facilities, and learn
+                    about student clubs, support services, and university life.
+                    New and returning students are welcome.
+                </p>
+
+                <p>
+                    <strong>Date:</strong>
+                    <time datetime="2026-11-05">November 5, 2026</time>
+                </p>
+                <p><strong>Time:</strong> 10:00 AM–1:00 PM</p>
+                <p><strong>Location:</strong> Main Campus Auditorium</p>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Technology and Innovation Workshop</h3>
+                    <p>
+                        <strong>Category:</strong> Academic Workshop
+                    </p>
+                </header>
+
+                <img src="images/technology-workshop.jpg"
+                     alt="Students working together on computers in a university laboratory"
+                     width="400">
+
+                <p>
+                    Explore emerging technologies, discuss practical
+                    computing challenges, and collaborate on introductory
+                    technology projects with fellow students.
+                </p>
+
+                <p>
+                    <strong>Date:</strong>
+                    <time datetime="2026-11-12">November 12, 2026</time>
+                </p>
+                <p><strong>Time:</strong> 2:00 PM–4:00 PM</p>
+                <p><strong>Location:</strong> Computer Laboratory 2</p>
+            </article>
+
+            <article>
+                <header>
+                    <h3>University Career and Internship Fair</h3>
+                    <p>
+                        <strong>Category:</strong> Career Development
+                    </p>
+                </header>
+
+                <img src="images/career-fair.jpg"
+                     alt="Students speaking with representatives at a career fair"
+                     width="400">
+
+                <p>
+                    Learn about internship opportunities, meet prospective
+                    employers, and get advice on preparing a CV and
+                    developing professional skills.
+                </p>
+
+                <p>
+                    <strong>Date:</strong>
+                    <time datetime="2026-11-18">November 18, 2026</time>
+                </p>
+                <p><strong>Time:</strong> 9:30 AM–12:30 PM</p>
+                <p><strong>Location:</strong> University Conference Hall</p>
+            </article>
+
+            <article>
+                <header>
+                    <h3>International Culture Day</h3>
+                    <p>
+                        <strong>Category:</strong> Cultural Event
+                    </p>
+                </header>
+
+                <img src="images/cultural-day.jpg"
+                     alt="Students sharing cultural displays at a university gathering"
+                     width="400">
+
+                <p>
+                    Celebrate the university community's cultural diversity
+                    through student presentations, traditional food displays,
+                    music, and opportunities to learn about different cultures.
+                </p>
+
+                <p>
+                    <strong>Date:</strong>
+                    <time datetime="2026-11-25">November 25, 2026</time>
+                </p>
+                <p><strong>Time:</strong> 11:00 AM–3:00 PM</p>
+                <p><strong>Location:</strong> Student Union Hall</p>
+            </article>
+        </section>
+
+        <section aria-labelledby="participation-heading">
+            <h2 id="participation-heading">Get Involved</h2>
+            <p>
+                Check the <a href="announcements.html">announcements page</a>
+                for university updates and event notices.
+                You can also review the
+                <a href="schedule.html">class schedule</a>
+                when planning your participation around lectures.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CampusHub University Portal. All rights reserved.</p>
+
+        <p>
+            For questions about campus activities, contact the university's
+            student services office.
+        </p>
+
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
